@@ -1,4 +1,4 @@
-console.log('this is loaded');
+console.log('---this is loaded---');
 var Spotify = require('node-spotify-api');
 var Twitter = require('twitter');
 module.exports = new Twitter({
@@ -9,7 +9,7 @@ module.exports = new Twitter({
     access_token_secret: 'xrSN0I7anNDQAA9mbUQl173i3rGDxrj4pUw1PLPkDfCkP',
 })
 
-// var spotify = new Spotify({
+// module.exports = new Spotify({
 //     id: '2495dde7318149058e2fb160f4460a6f',
 //     secret: '8ab3116598b74e1690256482f9ee5123'
 // });
