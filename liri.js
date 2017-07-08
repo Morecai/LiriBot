@@ -3,7 +3,6 @@ var fs = require('fs');
 var client = require('./keys.js');
 var spotify = require('./keys.js');
 var nodeArgv = process.argv;
-var command = process.argv[2];
 var x = "";
 for (var i = 3; i < nodeArgv.length; i++) {
     if (i > 3 && i < nodeArgv.length) {
