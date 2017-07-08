@@ -12,6 +12,8 @@ for (var i = 3; i < nodeArgv.length; i++) {
     }
 }
 
+var command = nodeArgv[2];
+
 switch (command) {
     case "my-tweets":
         myTweets()
